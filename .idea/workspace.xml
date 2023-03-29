@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88948ce5-f1d0-4206-b68c-de5d004eb14a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiPrimerMVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlador/ControladorEspecialidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/ModeloEspecialidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vista/VistaEspecialidad.java" afterDir="false" />
-    </list>
+    <list default="true" id="88948ce5-f1d0-4206-b68c-de5d004eb14a" name="Changes" comment="Global(New):MiPrimerMVC&#10;Ejemplo de aplicación sencilla de la implementación del patrón de arquitectura MVC&#10;Ref#0&#10;Reviewed-by: SJT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,11 +51,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680065177792</updated>
-      <workItem from="1680065179439" duration="2079000" />
+      <workItem from="1680065179439" duration="2886000" />
     </task>
+    <task id="LOCAL-00001" summary="Global(New):MiPrimerMVC&#10;Ejemplo de aplicación sencilla de la implementación del patrón de arquitectura MVC&#10;Ref#0&#10;Reviewed-by: SJT">
+      <created>1680125321192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680125321192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Global(New):MiPrimerMVC&#10;Ejemplo de aplicación sencilla de la implementación del patrón de arquitectura MVC&#10;Ref#0&#10;Reviewed-by: SJT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Global(New):MiPrimerMVC&#10;Ejemplo de aplicación sencilla de la implementación del patrón de arquitectura MVC&#10;Ref#0&#10;Reviewed-by: SJT" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MiPrimerMVC$Main.ic" NAME="Main Coverage Results" MODIFIED="1680124909483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
