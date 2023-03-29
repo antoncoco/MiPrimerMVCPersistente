@@ -28,7 +28,9 @@ public class VistaEspecialidad extends JFrame {
         lblNombre = new JLabel("Nombre :");
 
         jtxClave  = new JTextField(30);
+        jtxClave.setText("1");
         jtxNombre = new JTextField(30);
+        jtxNombre.setText("Especialidad");
 
         pnlDatos1.add(lblClave);
         pnlDatos1.add(jtxClave);
