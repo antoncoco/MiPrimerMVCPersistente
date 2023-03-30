@@ -12,7 +12,10 @@ public class ControladorEspecialidad implements ActionListener {
     private VistaEspecialidad vistaEspecialidad;
 
 
-    public ControladorEspecialidad(ModeloEspecialidad modeloEspecialidad, VistaEspecialidad vistaEspecialidad) {
+    public ControladorEspecialidad(
+            ModeloEspecialidad modeloEspecialidad,
+            VistaEspecialidad vistaEspecialidad
+    ) {
         this.modeloEspecialidad = modeloEspecialidad;
         this.vistaEspecialidad  = vistaEspecialidad;
 
@@ -40,7 +43,12 @@ public class ControladorEspecialidad implements ActionListener {
                     Integer.parseInt(vistaEspecialidad.jtxClave.getText())+
                     " Nombre:"+
                     vistaEspecialidad.jtxNombre.getText());
-            JOptionPane.showMessageDialog(null,"Registro Guardado!","AVISO", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(
+                    null,
+                    "Registro Guardado!",
+                    "AVISO",
+                    JOptionPane.INFORMATION_MESSAGE
+            );
             clear();
         }
         else if(vistaEspecialidad.btnSalir == evento.getSource()){
