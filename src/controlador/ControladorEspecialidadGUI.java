@@ -1,5 +1,6 @@
 package controlador;
 
+import dao.DAOEspecialidad;
 import modelo.ModeloEspecialidad;
 import vista.VistaEspecialidadGUI;
 
@@ -25,16 +26,27 @@ public class ControladorEspecialidadGUI implements ActionListener {
             clear();
         }
         else if(vista.btnGuardar == evento.getSource()) {
-            System.out.println("Clave:"+
-                    Integer.parseInt(vista.jtxClave.getText())+
-                    " Nombre:"+
-                    vista.jtxNombre.getText());
-            JOptionPane.showMessageDialog(
+            modelo.setId(
+                Integer.parseInt(vista.jtxClave.getText())
+            );
+            modelo.setNombre(vista.jtxNombre.getText());
+            DAOEspecialidad dao = new DAOEspecialidad();
+            if(dao.agregar(modelo)) {
+                JOptionPane.showMessageDialog(
                     null,
                     "Registro Guardado!",
                     "AVISO",
                     JOptionPane.INFORMATION_MESSAGE
-            );
+                );
+            }else {
+                JOptionPane.showMessageDialog(
+                    null,
+                    "Ups! Fallo al intentar agregar especialidad.\n" +
+                            "Intente nuevamente.",
+                    "ERROR",
+                    JOptionPane.ERROR_MESSAGE
+                );
+            }
             clear();
         }
         else if(vista.btnSalir == evento.getSource()){
